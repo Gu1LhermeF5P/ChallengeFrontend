@@ -167,3 +167,29 @@ h2 {
 .banner .ponto.active {
     background-color: #FF2828;
 }
+.area_1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 40px;
+}
+.area_content{
+    padding: 80px;
+}
+.area_subtitle{
+    margin-bottom: 30px;
+    margin-top: 8px;
+}
+.area_text {
+    margin-bottom: 30px;
+    line-height: 25px;
+    color: #474646;
+}
+.area_img1 {
+    background-image: url(../image/motor.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 450px;
+    width: 450px;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
