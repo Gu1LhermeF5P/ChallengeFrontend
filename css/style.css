@@ -74,3 +74,35 @@ h2 {
     max-width: 1140px;
     margin: auto;
 }
+.header-search form {
+    display: flex;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.header--area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.header-search input{
+    font-size: 16px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border:1px solid black;
+    outline: none;
+    width: 100%;
+    max-width: 250px;
+}
+.header-search button {
+    border: 0;
+    background-color: transparent;
+    margin-left: -30px;
+    cursor: pointer;
+}
+.header-search button img {
+    width: 16px;
+    height: 16px;
+}
