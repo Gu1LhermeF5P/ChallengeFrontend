@@ -133,3 +133,15 @@ h2 {
     color: white;
     margin: 150px ;
 }
+.banner h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    color: #FF2828;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 1px black;
+}
+.banner h2 {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
