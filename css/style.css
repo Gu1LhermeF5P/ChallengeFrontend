@@ -106,3 +106,30 @@ h2 {
     width: 16px;
     height: 16px;
 }
+.banner {
+    margin-top: 40px;
+    height:  calc(100vh - 200px);
+    background-image: url(../image/slide5.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.banner .sliders {
+    width: 100vw;
+    height: 100%;
+}
+.banner .slide {
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    background-color:rgba(0,0,0,0.3);
+}
+.banner .slide-area{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    color: white;
+    margin: 150px ;
+}
