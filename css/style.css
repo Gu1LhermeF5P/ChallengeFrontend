@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .line {
+    background-color: #FF2828;
+    height: 10px;
+}
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+} 
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+}
+.members_page{
+    position:fixed;
+    width: 150px;
+    height: 40px;
+    border-radius: 45px;
+    text-align: center;
+    margin:10px;
+    background-color: rgba(163, 162, 162, 0.993);
+    font-size: 15px;
+    font-family: "Roboto",sans-serif;  
+    font-weight: bold; 
+    
+}
+.members_page a {
+    text-decoration: none;
+    color:rgba(61, 61, 61, 0.911);
+    letter-spacing: 3px;
+}
+.members_page a:hover{
+    opacity: 50%;
+}
+.area_content h2 {
+    margin-top: 10px;
+}
+.button {
+    display:inline-block;
+    border:1px solid #454545;
+    border-radius: 8px;
+    color:#B4B4B4;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+.button:hover {
+    color: white;
+    background-color: #454545;
+}
