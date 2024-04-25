@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(53, 53, 53, 0.863);
+}
+.container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 360px;
+}
+div{
+    margin: 15px;
+}
+.rapha img {
+    border-radius: 50%;
+}
+.nicolas img {
+    border-radius: 90%;
+    height: 190px;
+}
+.guilherme img{
+    border-radius:70%;
+    height: 190px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    margin: 15px;
+}
+.logo_figma{
+    display: inline-block;
+}
+.logo_figma img {
+    border-radius: 60%;
+}
+.logo_github{
+    display: inline-block;
+}
+.logo_github img {
+    border-radius: 50%;
+}
