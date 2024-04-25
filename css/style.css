@@ -44,6 +44,15 @@ h2 {
 .area_content h2 {
     margin-top: 10px;
 }
+.header-menu {
+    margin-left: 50px;
+    cursor: pointer;
+} 
+.header-menu img {
+    width: 24px;
+    height: 24px;
+    margin-right: 225px;
+} 
 .button {
     display:inline-block;
     border:1px solid #454545;
